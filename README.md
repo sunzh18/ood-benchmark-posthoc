@@ -67,9 +67,9 @@ It is tested under Python 3.9 environment, and requries some packages to be inst
 ## Training
 
 训练方法为最基础的交叉熵损失训练，使用训练脚本 `./scripts/train_baseline.sh`可以完成训练，比如：
-
+```shell
 sh scripts/train_baseline.sh CIFAR-10/CIFAR-100 densenet
-
+```
 对于ImageNet1K数据集，只需要使用pytorch官方预训练的模型参数初始化模型即可。
 
 ## Precompute
